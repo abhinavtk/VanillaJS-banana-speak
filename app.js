@@ -10,6 +10,7 @@ function getTranslationUrl(text) {
 
 function errorHandler(error) {
     console.log("Error occured", error);
+    outputDiv.innerText = "Too Many Requests: Rate limit of 5 requests per hour exceeded."
 }
 
 function clickHandler() {
