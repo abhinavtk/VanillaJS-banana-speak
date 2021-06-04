@@ -6,41 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speak</title>
-    <style>
-        #txt-input {
-            border: 1px solid black;
-            width: 80%;
-            height: 10vh;
-            padding: 1rem;
-            display: block;
-        }
 
-        #btn-translate {
-            border: 1px solid black;
-            margin: 1rem;
-            background-color: black;
-            color: white;
-            
-        }
-
-        #output {
-            border: 1px solid black;
-            margin: 1rem;
-            padding: 1rem;
-            width: 80%;
-            height: 10vh;
-        }
-    </style>
-
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Let's speak Minion!!!!</h1>
+
+    <header class="hero">
+        <!-- <img class="hero-img" src="images/hero.svg" /> -->
+        <h1 class="hero-txt">Let's speak <span class="hero-highlight">Minion!!! </span></h1>
+    </header>
+
 
     <textarea id="txt-input" placeholder=" Enter something in English to translate to banana."></textarea>
     <button id="btn-translate">Translate</button>
 
-    <div style="font-size:larger;">Output will come here ok 👇</div>
+    <div class="output-text">Output will come here ok 👇</div>
     <div id="output"> </div>
 
 
