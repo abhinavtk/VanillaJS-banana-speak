@@ -64,5 +64,20 @@ body {
     font-weight: bold;
 }
 
-
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+ .footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    color:var(--yellow);
+    padding: 1rem;
+ }
 
